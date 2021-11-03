@@ -6,6 +6,24 @@
   height: 40vmin;
   pointer-events: none;
 }
+table{
+  border: 1px solid #222;
+}
+
+thead{
+  background-color: #222;
+  color: white;
+}
+
+tfoot{
+  padding: 20px;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
